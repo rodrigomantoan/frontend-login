@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Login (front-end)</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="login-box">
             <div class="login-child">
-                <form action="#">
-                    <label>Username</label><br>
-                    <input type="text" name="username">
+                <h2>Welcome</h2>
+                <form>
+                    <input type="text" name="username" placeholder="Username" autocomplete="off">
                     <br><br>
-                    <label>Password</label><br>
-                    <input type="text" name="lastname">
+                    <input type="password" name="password" placeholder="Password" autocomplete="off">
                     <br><br>
-                    <input type="submit" class="button-submit" value="Submit">
+                    <input type="submit" value="Submit">
+                    <h6><a>Forgot Password</a>   /   <a>Create Account</a></h6>
                 </form>
             </div>
         </div>
